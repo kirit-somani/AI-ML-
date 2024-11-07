@@ -6,6 +6,7 @@ import seaborn as sns
 file_path = r"C:\Users\kirit\spyder files\crime index.csv"
 data = pd.read_csv(file_path)
 
+
 # Display basic information about the dataset
 print("Number of Rows:", data.shape[0])
 print("Number of Columns:", data.shape[1])
